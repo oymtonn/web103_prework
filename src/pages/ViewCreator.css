@@ -1,0 +1,103 @@
+.view-creator-container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    color: white;
+    background-color: #111;
+    min-height: 80vh;
+    min-width: 70vw;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  
+  .view-creator-image {
+    flex: 0 0 300px;
+    height: 300px;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.5);
+  }
+  
+  .view-creator-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  
+  .view-creator-name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .view-creator-description {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .view-creator-url {
+    font-size: 1rem;
+    color: #61dafb;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .view-creator-url:hover {
+    color: #21a1f1;
+  }
+  
+  .edit-button {
+    display: inline-block;
+    margin-top: 2rem; /* naturally below the container */
+    padding: 0.75rem 1.5rem;
+    background-color: #444;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.2s ease;
+  }
+  
+  .edit-button:hover {
+    background-color: #666;
+  }
+  
+  /* Responsive: keep horizontal but shrink image if screen is small */
+  @media (max-width: 768px) {
+    .view-creator-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .view-creator-image {
+      width: 100%;
+      height: 250px;
+    }
+  
+    .view-creator-details {
+      width: 100%;
+      text-align: center;
+    }
+      
+  }
+
+  .edit-button {
+    position:absolute;
+    top:650px;
+    right:230px;
+    margin-top: 1.5rem; 
+    padding: 0.75rem 1.5rem;
+    background-color: #444;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    transition: background 0.2s ease;
+  }
+  
+  .edit-button:hover {
+    background-color: #666;
+  }
+  
