@@ -10,15 +10,6 @@ function CreatorCard({ id, name, description, imageURL }) {
       style={{ backgroundImage: `url(${imageURL})` }}
       onClick={() => navigate(`/creator/${id}`)}
     >
-      <div
-        className="edit-button"
-        onClick={(e) => {
-          e.stopPropagation()
-          navigate(`/edit/${id}`)
-        }}
-      >
-        Edit
-      </div>
 
       {}
       <div className="creator-overlay">

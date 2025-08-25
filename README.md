@@ -46,7 +46,7 @@ GIF created with IMGUR
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+I had the hardest time with the routes and linking, since it was something we went over last in WEB 102. But overall it was a nice project, challenging, but it refined my skills again.
 
 ## License
 

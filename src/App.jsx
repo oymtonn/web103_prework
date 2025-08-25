@@ -31,7 +31,7 @@ function App() {
           id={creator.id}
           name={creator.name}
           description={creator.description}
-          imageURL={creator.imageURL} // match prop name in CreatorCard
+          imageURL={creator.imageURL}
         />
       ))}
     </div>
